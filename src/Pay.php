@@ -70,7 +70,6 @@ class Pay
      *
      * @return GatewayApplicationInterface
      * @throws InvalidGatewayException
-     *
      */
     protected function create($method)
     {
@@ -90,7 +89,6 @@ class Pay
      *
      * @return GatewayApplicationInterface
      * @throws InvalidGatewayException
-     *
      */
     protected function make($gateway)
     {
@@ -111,7 +109,7 @@ class Pay
     protected function registerLogService()
     {
         $config = $this->config->get('log');
-        $config['identify'] = 'yansongda.pay';
+        $config['identify'] = 'webrover.pay';
 
         $logger = new Logger();
         $logger->setConfig($config);

@@ -47,7 +47,7 @@ class Logger
      */
     protected $config = [
         'file' => null,
-        'identify' => 'yansongda.supports',
+        'identify' => 'webrover.pay.supports',
         'level' => BaseLogger::DEBUG,
         'type' => 'daily',
         'max_files' => 30,

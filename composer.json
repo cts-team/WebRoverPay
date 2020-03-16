@@ -1,0 +1,32 @@
+{
+  "name": "webrover/pay",
+  "type": "library",
+  "description": "WebRover Pay",
+  "keywords": [
+    "php",
+    "pay",
+    "WebRover",
+    "alipay",
+    "Wechat pay"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mr moon",
+      "email": "createsmart@163.com"
+    }
+  ],
+  "autoload": {
+        "psr-4": {
+            "WebRover\\Pay\\": "src/"
+        }
+    },
+  "require": {
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*",
+    "symfony/http-foundation": "~3.4.30",
+    "symfony/event-dispatcher": "~3.4.30"
+  }
+}
